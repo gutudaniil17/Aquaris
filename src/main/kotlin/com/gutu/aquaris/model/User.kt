@@ -17,6 +17,10 @@ class User(
     var userId: Long,
     var username: String,
     var password: String,
+    var name: String,
+    var surname: String,
+    var number: String,
+    var email: String,
     @Enumerated(EnumType.STRING)
     var role: UserRole
 ) {
